@@ -42,8 +42,9 @@ namespace UI
             this.GioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnPhanPhoi = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -148,15 +149,15 @@ namespace UI
             this.NgaySinh.HeaderText = "Ngày sinh";
             this.NgaySinh.Name = "NgaySinh";
             // 
-            // button1
+            // btnPhanPhoi
             // 
-            this.button1.Location = new System.Drawing.Point(680, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 45);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Phân phối";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnPhanPhoi.Location = new System.Drawing.Point(52, 62);
+            this.btnPhanPhoi.Name = "btnPhanPhoi";
+            this.btnPhanPhoi.Size = new System.Drawing.Size(112, 23);
+            this.btnPhanPhoi.TabIndex = 7;
+            this.btnPhanPhoi.Text = "Phân phối học sinh";
+            this.btnPhanPhoi.UseVisualStyleBackColor = true;
+            this.btnPhanPhoi.Click += new System.EventHandler(this.button1_Click);
             // 
             // button5
             // 
@@ -167,13 +168,23 @@ namespace UI
             this.button5.Text = "Refresh";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(193, 62);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Xóa phân phối học sinh";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Lop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnPhanPhoi);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox2);
@@ -205,7 +216,8 @@ namespace UI
         private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPhanPhoi;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button1;
     }
 }

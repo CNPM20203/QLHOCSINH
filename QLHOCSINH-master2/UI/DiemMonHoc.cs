@@ -16,5 +16,18 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void btnThemDMH_Click(object sender, EventArgs e)
+        {
+            ThemDiemMonHoc TDMon = new ThemDiemMonHoc();
+            TDMon.Show();
+        
+        }
+
+        private void btnSuaDMH_Click(object sender, EventArgs e)
+        {
+            SuaDiemMonHoc SDMon = new SuaDiemMonHoc();
+            SDMon.Show();
+        }
     }
 }

@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.IDHocSinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HoTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,6 +36,9 @@
             this.Diem15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Diem1T = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DiemTB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSuaDMH = new System.Windows.Forms.Button();
+            this.btnXoaDMH = new System.Windows.Forms.Button();
+            this.btnThemDMH = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button5 = new System.Windows.Forms.Button();
@@ -60,33 +60,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(895, 337);
             this.dataGridView1.TabIndex = 5;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(221, 29);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Sửa";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(140, 29);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Xóa";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(59, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Thêm";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // IDHocSinh
             // 
@@ -126,6 +99,35 @@
             this.DiemTB.HeaderText = "TB";
             this.DiemTB.Name = "DiemTB";
             // 
+            // btnSuaDMH
+            // 
+            this.btnSuaDMH.Location = new System.Drawing.Point(221, 29);
+            this.btnSuaDMH.Name = "btnSuaDMH";
+            this.btnSuaDMH.Size = new System.Drawing.Size(75, 23);
+            this.btnSuaDMH.TabIndex = 8;
+            this.btnSuaDMH.Text = "Sửa";
+            this.btnSuaDMH.UseVisualStyleBackColor = true;
+            this.btnSuaDMH.Click += new System.EventHandler(this.btnSuaDMH_Click);
+            // 
+            // btnXoaDMH
+            // 
+            this.btnXoaDMH.Location = new System.Drawing.Point(140, 29);
+            this.btnXoaDMH.Name = "btnXoaDMH";
+            this.btnXoaDMH.Size = new System.Drawing.Size(75, 23);
+            this.btnXoaDMH.TabIndex = 7;
+            this.btnXoaDMH.Text = "Xóa";
+            this.btnXoaDMH.UseVisualStyleBackColor = true;
+            // 
+            // btnThemDMH
+            // 
+            this.btnThemDMH.Location = new System.Drawing.Point(59, 29);
+            this.btnThemDMH.Name = "btnThemDMH";
+            this.btnThemDMH.Size = new System.Drawing.Size(75, 23);
+            this.btnThemDMH.TabIndex = 6;
+            this.btnThemDMH.Text = "Thêm";
+            this.btnThemDMH.UseVisualStyleBackColor = true;
+            this.btnThemDMH.Click += new System.EventHandler(this.btnThemDMH_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -160,12 +162,12 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSuaDMH);
+            this.Controls.Add(this.btnXoaDMH);
+            this.Controls.Add(this.btnThemDMH);
             this.Controls.Add(this.dataGridView1);
             this.Name = "DiemMonHoc";
-            this.Text = "Quản lý điểm môn học";
+            this.Text = "Quản lý điểm học tập";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -182,9 +184,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Diem15;
         private System.Windows.Forms.DataGridViewTextBoxColumn Diem1T;
         private System.Windows.Forms.DataGridViewTextBoxColumn DiemTB;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSuaDMH;
+        private System.Windows.Forms.Button btnXoaDMH;
+        private System.Windows.Forms.Button btnThemDMH;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button5;

@@ -29,22 +29,23 @@ namespace UI
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnQLHS = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnQLL = new System.Windows.Forms.Button();
+            this.btnQLD = new System.Windows.Forms.Button();
+            this.btnDHK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnQLHS
             // 
-            this.button1.Location = new System.Drawing.Point(143, 69);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 30);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Quản lý học sinh";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnQLHS.Location = new System.Drawing.Point(143, 69);
+            this.btnQLHS.Margin = new System.Windows.Forms.Padding(2);
+            this.btnQLHS.Name = "btnQLHS";
+            this.btnQLHS.Size = new System.Drawing.Size(125, 30);
+            this.btnQLHS.TabIndex = 4;
+            this.btnQLHS.Text = "Quản lý học sinh";
+            this.btnQLHS.UseVisualStyleBackColor = true;
+            this.btnQLHS.Click += new System.EventHandler(this.btnQLHS_Click);
             // 
             // button2
             // 
@@ -57,58 +58,61 @@ namespace UI
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnQLL
             // 
-            this.button3.Location = new System.Drawing.Point(143, 123);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(125, 30);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Quản lý lớp";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnQLL.Location = new System.Drawing.Point(143, 123);
+            this.btnQLL.Name = "btnQLL";
+            this.btnQLL.Size = new System.Drawing.Size(125, 30);
+            this.btnQLL.TabIndex = 6;
+            this.btnQLL.Text = "Quản lý lớp";
+            this.btnQLL.UseVisualStyleBackColor = true;
+            this.btnQLL.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // btnQLD
             // 
-            this.button4.Location = new System.Drawing.Point(143, 184);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(125, 29);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Quản lý điểm học tập";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnQLD.Location = new System.Drawing.Point(143, 184);
+            this.btnQLD.Name = "btnQLD";
+            this.btnQLD.Size = new System.Drawing.Size(125, 29);
+            this.btnQLD.TabIndex = 7;
+            this.btnQLD.Text = "Quản lý điểm học tập";
+            this.btnQLD.UseVisualStyleBackColor = true;
+            this.btnQLD.Click += new System.EventHandler(this.btnQLD_Click);
             // 
-            // button5
+            // btnDHK
             // 
-            this.button5.Location = new System.Drawing.Point(143, 245);
-            this.button5.Name = "button5";
-            this.button5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button5.Size = new System.Drawing.Size(125, 29);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Quản lý điểm học kỳ";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnDHK.Location = new System.Drawing.Point(143, 245);
+            this.btnDHK.Name = "btnDHK";
+            this.btnDHK.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnDHK.Size = new System.Drawing.Size(125, 29);
+            this.btnDHK.TabIndex = 8;
+            this.btnDHK.Text = "Quản lý điểm học kỳ";
+            this.btnDHK.UseVisualStyleBackColor = true;
+            this.btnDHK.Click += new System.EventHandler(this.btnDHK_Click);
             // 
             // GiaoDien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(408, 413);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnDHK);
+            this.Controls.Add(this.btnQLD);
+            this.Controls.Add(this.btnQLL);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnQLHS);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "GiaoDien";
-            this.Text = "Quan Ly";
+            this.Text = "Chương trình quản lý";
+            this.Load += new System.EventHandler(this.GiaoDien_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnQLHS;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnQLL;
+        private System.Windows.Forms.Button btnQLD;
+        private System.Windows.Forms.Button btnDHK;
     }
 }
 

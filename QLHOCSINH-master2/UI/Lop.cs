@@ -29,7 +29,8 @@ namespace UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            PhanPhoiLop PPLop = new PhanPhoiLop();
+            PPLop.Show();
         }
     }
 }
