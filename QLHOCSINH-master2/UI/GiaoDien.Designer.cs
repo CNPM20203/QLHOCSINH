@@ -38,10 +38,10 @@ namespace UI
             // 
             // btnQLHS
             // 
-            this.btnQLHS.Location = new System.Drawing.Point(143, 69);
+            this.btnQLHS.Location = new System.Drawing.Point(134, 69);
             this.btnQLHS.Margin = new System.Windows.Forms.Padding(2);
             this.btnQLHS.Name = "btnQLHS";
-            this.btnQLHS.Size = new System.Drawing.Size(125, 30);
+            this.btnQLHS.Size = new System.Drawing.Size(134, 30);
             this.btnQLHS.TabIndex = 4;
             this.btnQLHS.Text = "Quản lý học sinh";
             this.btnQLHS.UseVisualStyleBackColor = true;
@@ -60,9 +60,9 @@ namespace UI
             // 
             // btnQLL
             // 
-            this.btnQLL.Location = new System.Drawing.Point(143, 123);
+            this.btnQLL.Location = new System.Drawing.Point(134, 123);
             this.btnQLL.Name = "btnQLL";
-            this.btnQLL.Size = new System.Drawing.Size(125, 30);
+            this.btnQLL.Size = new System.Drawing.Size(134, 30);
             this.btnQLL.TabIndex = 6;
             this.btnQLL.Text = "Quản lý lớp";
             this.btnQLL.UseVisualStyleBackColor = true;
@@ -70,9 +70,9 @@ namespace UI
             // 
             // btnQLD
             // 
-            this.btnQLD.Location = new System.Drawing.Point(143, 184);
+            this.btnQLD.Location = new System.Drawing.Point(134, 184);
             this.btnQLD.Name = "btnQLD";
-            this.btnQLD.Size = new System.Drawing.Size(125, 29);
+            this.btnQLD.Size = new System.Drawing.Size(134, 29);
             this.btnQLD.TabIndex = 7;
             this.btnQLD.Text = "Quản lý điểm học tập";
             this.btnQLD.UseVisualStyleBackColor = true;
@@ -80,12 +80,12 @@ namespace UI
             // 
             // btnDHK
             // 
-            this.btnDHK.Location = new System.Drawing.Point(143, 245);
+            this.btnDHK.Location = new System.Drawing.Point(134, 245);
             this.btnDHK.Name = "btnDHK";
             this.btnDHK.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnDHK.Size = new System.Drawing.Size(125, 29);
+            this.btnDHK.Size = new System.Drawing.Size(134, 29);
             this.btnDHK.TabIndex = 8;
-            this.btnDHK.Text = "Quản lý điểm học kỳ";
+            this.btnDHK.Text = "Quản lý điểm học kỳ lop";
             this.btnDHK.UseVisualStyleBackColor = true;
             this.btnDHK.Click += new System.EventHandler(this.btnDHK_Click);
             // 

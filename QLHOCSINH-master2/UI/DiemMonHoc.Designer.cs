@@ -36,7 +36,6 @@
             this.Diem15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Diem1T = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DiemTB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnSuaDMH = new System.Windows.Forms.Button();
             this.btnXoaDMH = new System.Windows.Forms.Button();
             this.btnThemDMH = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -99,16 +98,6 @@
             this.DiemTB.HeaderText = "TB";
             this.DiemTB.Name = "DiemTB";
             // 
-            // btnSuaDMH
-            // 
-            this.btnSuaDMH.Location = new System.Drawing.Point(221, 29);
-            this.btnSuaDMH.Name = "btnSuaDMH";
-            this.btnSuaDMH.Size = new System.Drawing.Size(75, 23);
-            this.btnSuaDMH.TabIndex = 8;
-            this.btnSuaDMH.Text = "Sửa";
-            this.btnSuaDMH.UseVisualStyleBackColor = true;
-            this.btnSuaDMH.Click += new System.EventHandler(this.btnSuaDMH_Click);
-            // 
             // btnXoaDMH
             // 
             this.btnXoaDMH.Location = new System.Drawing.Point(140, 29);
@@ -162,7 +151,6 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnSuaDMH);
             this.Controls.Add(this.btnXoaDMH);
             this.Controls.Add(this.btnThemDMH);
             this.Controls.Add(this.dataGridView1);
@@ -184,7 +172,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Diem15;
         private System.Windows.Forms.DataGridViewTextBoxColumn Diem1T;
         private System.Windows.Forms.DataGridViewTextBoxColumn DiemTB;
-        private System.Windows.Forms.Button btnSuaDMH;
         private System.Windows.Forms.Button btnXoaDMH;
         private System.Windows.Forms.Button btnThemDMH;
         private System.Windows.Forms.Label label1;

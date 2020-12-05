@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class ThemDHK : Form
+    public partial class ThemLop : Form
     {
-        public ThemDHK()
+        public ThemLop()
         {
             InitializeComponent();
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

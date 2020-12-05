@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Diem.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Diem.Designer.cs">
-      <DependentUpon>Diem.cs</DependentUpon>
-    </Compile>
     <Compile Include="DiemMonHoc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,12 +96,6 @@
     <Compile Include="SuaDHK.Designer.cs">
       <DependentUpon>SuaDHK.cs</DependentUpon>
     </Compile>
-    <Compile Include="SuaDiemMonHoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SuaDiemMonHoc.Designer.cs">
-      <DependentUpon>SuaDiemMonHoc.cs</DependentUpon>
-    </Compile>
     <Compile Include="SuaTTHocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +114,12 @@
     <Compile Include="ThemDiemMonHoc.Designer.cs">
       <DependentUpon>ThemDiemMonHoc.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThemLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemLop.Designer.cs">
+      <DependentUpon>ThemLop.cs</DependentUpon>
+    </Compile>
     <Compile Include="TimKiemHS.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,9 +132,6 @@
     <Compile Include="TNHS.Designer.cs">
       <DependentUpon>TNHS.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Diem.resx">
-      <DependentUpon>Diem.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DiemMonHoc.resx">
       <DependentUpon>DiemMonHoc.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,9 +165,6 @@
     <EmbeddedResource Include="SuaDHK.resx">
       <DependentUpon>SuaDHK.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SuaDiemMonHoc.resx">
-      <DependentUpon>SuaDiemMonHoc.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SuaTTHocSinh.resx">
       <DependentUpon>SuaTTHocSinh.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThemDiemMonHoc.resx">
       <DependentUpon>ThemDiemMonHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemLop.resx">
+      <DependentUpon>ThemLop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TimKiemHS.resx">
       <DependentUpon>TimKiemHS.cs</DependentUpon>
